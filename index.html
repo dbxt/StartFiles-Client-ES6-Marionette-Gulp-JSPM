@@ -1,0 +1,60 @@
+<!doctype html>
+<script src="libs/system.js"></script>
+<script src="config.js"></script>
+<script>
+    System.import("src/app");
+</script>
+<div class="row">
+    <div class="col-md-12">
+        <div id="AppBreadCrumbs"></div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <div id="AppContainer"></div>
+    </div>
+</div>
+
+
+
+<script id="index-template" type="text/x-backbone">
+    <div class="col-md-12">
+        <h2>Welcome to Marionette!</h2>
+        <ul>
+            <li><a href="#" id="nav-people-index">Users</a></li>
+            <li><a href="#">Roles</a></li>
+        </ul>
+    </div>
+</script>
+<script id="person-layout-template" type="text/x-backbone">
+    <!--<nav class="navbar navbar-default navbar-static-top">-->
+        <!--<div class="container-fluid">-->
+            <!--<ul class="nav navbar-nav">-->
+                <!--<li><a href="#">Option 1</a></li>-->
+                <!--<li><a href="#">Option 2</a></li>-->
+            <!--</ul>-->
+        <!--</div>-->
+    <!--</nav>-->
+    <div class="col-md-10 col-md-offset-1">
+        <div class="row">
+            <h2 class="invert">Viewing User: <%=id%></h2>
+        </dir>
+        <div class="row">
+            <div id="summary" class="col-md-2 well"></div>
+            <div id="detail" class="col-md-10"></div>
+        </div>
+    </div>
+</script>
+<script id="person-summary-template" type="text/x-backbone">
+    <ul>
+        <li>thing 1</li>
+        <li>thing 2</li>
+    </ul>
+
+</script>
+<script id="person-detail-template" type="text/x-backbone">
+    <h3>The Details</h3>
+    <p></p>
+
+
+</script>

@@ -1,0 +1,48 @@
+{
+  "name": "StartFiles-Client-ES6-Marionette-Gulp-JSPM",
+  "version": "1.0.0",
+  "description": "Start Files for a Client app using ES6, Bakbone, Gulp, and JSPM",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dbxt/StartFiles-Client-ES6-Marionette-Gulp-JSPM.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dbxt/StartFiles-Client-ES6-Marionette-Gulp-JSPM/issues"
+  },
+  "homepage": "https://github.com/dbxt/StartFiles-Client-ES6-Marionette-Gulp-JSPM",
+  "devDependencies": {
+    "browser-sync": "^2.8.0",
+    "gulp": "^3.9.0",
+    "gulp-debug": "^2.0.1",
+    "gulp-jshint": "^1.11.2",
+    "gulp-watch": "^4.3.3",
+    "jshint-stylish": "^2.0.1"
+  },
+  "jspm": {
+    "directories": {
+      "packages": "libs"
+    },
+    "dependencies": {
+      "backbone": "npm:backbone@^1.2.1",
+      "backbone.marionette": "npm:backbone.marionette@^2.4.2",
+      "bootstrap": "github:twbs/bootstrap@^3.3.5",
+      "css": "github:systemjs/plugin-css@^0.1.13",
+      "jquery": "github:components/jquery@^2.1.4",
+      "json": "github:systemjs/plugin-json@^0.1.0",
+      "marionette": "bower:marionette@^2.4.2",
+      "text": "github:systemjs/plugin-text@^0.0.2",
+      "underscore": "npm:underscore@^1.8.3"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.1.13",
+      "babel-runtime": "npm:babel-runtime@^5.1.13",
+      "core-js": "npm:core-js@^0.9.4"
+    }
+  }
+}
